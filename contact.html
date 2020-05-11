@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact me</title>
+  </head>
+  <body>
+    <!--
+    <h1>Contact Details</h1>
+
+    <h3>Mailing address</h3>
+    <p>Otilliengasse 4, Ulm Germany 89077</p>
+
+    <h3>WhatsApp</h3>
+    <p>+49 1788 480 995</p>
+
+    <h3>Email</h3>
+    <p>billygermaine@gamil.com</p>
+-->
+    <!-- form-->
+    <!--<hr>-->
+    <!--action with mailto sends whatever the text is to the specified email
+    after they hit submit
+    enctype of plain text makes the text show up in the message without any
+    strange chracters-->
+    <form class="" action="mailto:billygermaine@gmail.com" method="post" enctype="text/plain">
+      <label>Your name</label>
+      <input type="text" name="yourName" value=""><br>
+      <label for="">Your email:</label>
+      <!--with the type set as email, it does some verification to make sure
+      that it is an email you are submitting-->
+      <input type="email" name="yourEmail" value=""><br>
+      <label for="">Your message:</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
